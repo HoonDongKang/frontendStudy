@@ -1,5 +1,7 @@
-const Apple = () => {
-    return <p>Hello,Apple</p>
+import Apple from '../components/Apple/Apple'
+
+const apple = () => {
+    return <Apple />
 }
 
-export default Apple
+export default apple
