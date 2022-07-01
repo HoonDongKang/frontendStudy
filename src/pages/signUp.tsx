@@ -14,7 +14,7 @@ const signUp = () => {
                 {'Recipe'}
                 <Recipe></Recipe>
             </article>
-            <div>
+            <div style={{ border: '1px solid', margin: '10px' }}>
                 <ul>
                     <Change></Change>
                 </ul>
