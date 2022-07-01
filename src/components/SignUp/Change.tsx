@@ -1,16 +1,17 @@
 const Change = () => {
+    const menuArr = [
+        { id: 'main', path: '/' },
+        { id: 'apple', path: '/apple' },
+        { id: 'banana', path: '/banana' },
+    ]
     return (
         <>
             <p>사이트 이동</p>
-            <li>
-                <a href='/'>Main</a>
-            </li>
-            <li>
-                <a href='/apple'>Apple</a>
-            </li>
-            <li>
-                <a href='/banana'>Banana</a>
-            </li>
+            {menuArr.map((menuObj) => (
+                <li key={menuObj.id}>
+                    <a href={menuObj.path}>{menuObj.id}</a>
+                </li>
+            ))}
         </>
     )
 }

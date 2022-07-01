@@ -2,6 +2,7 @@ import Header from '../components/SignUp/Header'
 import Input from '../components/SignUp/Input'
 import Recipe from '../components/SignUp/Recipe'
 import Change from '../components/SignUp/Change'
+import Note from '../components/SignUp/Note'
 
 const signUp = () => {
     return (

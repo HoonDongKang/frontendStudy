@@ -1,3 +1,5 @@
+import Note from './Note'
+
 const Recipe = () => {
     const recipeArr = [
         {
@@ -46,6 +48,9 @@ const Recipe = () => {
                         >
                             댓글 보기
                         </a>
+                        <p>
+                            노트하기 : <Note></Note>
+                        </p>
                     </div>
                 </div>
             ))}
