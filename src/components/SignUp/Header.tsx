@@ -1,9 +1,11 @@
-export const Header = () => {
+const Header = () => {
     return (
         <header>
             <div>
-                <p>회원가입</p>
+                <p>Sign Up</p>
             </div>
         </header>
     )
 }
+
+export default Header
