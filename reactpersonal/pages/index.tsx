@@ -1,6 +1,6 @@
-import type { NextPage } from 'next'
+import { createSlice } from '@reduxjs/toolkit'
 
-const Home: NextPage = () => {
+const Home = () => {
     return (
         <>
             <p>hello</p>
