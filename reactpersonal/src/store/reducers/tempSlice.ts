@@ -7,7 +7,7 @@ export interface TempState {
 
 const initialState: TempState = {
     tempValue: '',
-    count: 0,
+    count: 3,
 }
 
 export const tempSlice = createSlice({
